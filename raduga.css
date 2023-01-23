@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(247, 239, 239);
+    /* margin: 0px; */
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header {
+    /* font-family: 'Hachi Maru Pop', cursive; */
+
+    letter-spacing: 5px;
+
+    background: -webkit-linear-gradient(181deg, #f0740f, #f0693d, #eb511e);
+    /* background:  #d74315; */
+    color: #fffeff;
+
+    text-align: center;
+
+    height: 220px;
+
+
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 1;
+}
+
+.list li {
+    list-style: none;
+    margin: -20px;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fffeff;
+    letter-spacing: 2px;
+    position: relative;
+
+}
+
+.bottom-title {
+    font-size: 30px;
+    margin: 10px 0 10px;
+    text-align: center;
+    margin: 25px 0 10px
+}
+
+#tel,
+#nomber {
+    margin-bottom: -4px;
+    margin-left: 10px;
+    vertical-align: -4px;
+}
+
+#vk {
+    vertical-align: -9px;
+    margin-right: -10px;
+}
+
+.list img,
+a {
+    text-decoration: none;
+    width: 30px;
+    vertical-align: -4px;
+    margin-left: 18px;
+    color: #fffeff;
+}
+
+.list a {}
+
+.wrapper-menu {
+    text-align: center;
+}
+
+.content {
+    padding-top: 10px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0 auto;
+
+}
+
+.menu li {
+    display: inline-block;
+
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+.roll {
+    font-family: 'Roboto' sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 3px;
+    /* background-color:  #d74315; */
+    background: -webkit-linear-gradient(181deg, #f0740f, #f0693d, #eb511e);
+    color: #fffeff;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.menu li a:hover {
+    background: -webkit-linear-gradient(1deg, #f0740f, #f0693d, #eb511e);
+}
+
+.cards li {
+    width: 231px;
+    background: #e9edcc;
+    list-style: none;
+    margin-bottom: 25px;
+    vertical-align: top;
+    border-radius: 10px;
+    min-height: 330px;
+    word-wrap: break-word;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.cards li:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards {
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.card-menu {
+
+    padding: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.img {
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.btn-back {
+    border-radius: 15px;
+    padding: 5px 15px 10px 0px;
+    margin-left: 50px;
+    font-size: 15px;
+    background: #f0740f;
+    color: #fffeff;
+    outline: none;
+    border: none;
+}
+
+.hot {
+    /* display: inline; */
+}
+
+.hot-rolls {
+    height: 44px;
+    width: 66%;
+    padding: 5px;
+    margin: 14px;
+}
+
+.hot-rolls li a {
+    padding: 3px;
+    background: -webkit-linear-gradient(180deg, #f0740f, #f0693d, #eb511e);
+    border-radius: 12px;
+}
+
+.hot-rolls li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.hot-rolls li a:hover {
+    background: -webkit-linear-gradient(1deg, #f0740f, #f0693d, #eb511e);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fill {
+    flex: 1 1 0;
+
+}
+
+.card_description {
+    justify-content: space-between;
+    overflow-wrap: anywhere;
+    padding: 0 10px 10px 10px;
+}
+
+
+@media  (max-width:1200px){
+
+    .text header{
+
+        max-width: 750px;
+    }
+    .wrapper {
+       
+         max-width: 750px; 
+     }  
+     #nomber{
+        max-width: 750px;
+        display: inline-block;
+ 
+     }
+ .menu li {
+
+    margin-bottom:  10px;
+ }
+     
+    .cards{
+        justify-content:  space-around;
+    }
+   
+}
+
+
+@media  (max-width:750px){
+
+.header{
+
+    height: 250px;
+}
+
+    .text header{
+       
+        max-width: 420px;
+    }
+
+    .wrapper h1{
+
+        font-size:  48px;
+    }
+    .raduga{
+
+
+    }
+
+    .list li{
+
+        margin: 5px;
+    }
+    .bottom-title{
+
+        font-size: 25px;
+    text-align: center;
+    margin: 10px 0 10px;
+    }
+    .wrapper {
+       
+         max-width: 420px; 
+     }  
+     #nomber{
+        max-width: 420px;
+        display: inline-block;
+ 
+     }
+ .menu li {
+
+    margin-bottom:  10px;
+ }
+     
+    .cards{
+        justify-content:  space-around;
+    }
+   
+}
+
+
+
+
+
+
+
+/* min-width */
+@media  ( max-width:375px){
+
+
+
+    .text header{
+        max-width: 375px;
+
+        display: inline-block;
+    }
+
+    .wrapper {
+        max-width: 375px; 
+
+    }  
+ .wrapper h1{
+    font-size: 35px;
+
+}
+.bottom-title{
+
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 0px 0px;
+}
+.roll{
+
+    font-size: 20px;
+}
+.hot-rolls{
+    height: 44px;
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+}
+#nomber{
+
+font-size: 20px;
+}
+    
+     .menu {
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom:  10px;
+     }
+     .menu li {
+         
+        margin-bottom: 17px;
+     }
+     .cards{
+        display: flex;
+        justify-content:  space-around;
+    }
+}
